@@ -1,0 +1,35 @@
+
+# Data and training outputs
+data/
+runs/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Download caches
+.cache/
+.huggingface/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter autosave checkpoints
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS files
+.DS_Store
+._*
